@@ -1,0 +1,48 @@
+/*class person
+{
+    var name="ahmed"
+    var age=20
+}
+
+
+fun main(args: Array<String>) {
+    
+var person1=person()
+println(person1.name)
+println(person1.age)
+
+
+}*/
+//*****************************************
+class person
+{
+    var name=""
+    var address=""
+    var age=0
+}
+
+
+fun main(args:Array<String>)
+{
+    var person1=person()
+    person1.name="ahmed"
+    person1.address="mansoura"
+    person1.age=20
+
+
+    var person2=person()
+    person2.name="shaaban"
+    person2.address="alex"
+    person2.age=45
+
+
+    var person3=person()
+    person3.name="mostafa"
+    person3.address="sandoub"
+    person3.age=60
+
+println(person1.name)
+
+
+
+}
