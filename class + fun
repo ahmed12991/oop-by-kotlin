@@ -1,0 +1,18 @@
+class person
+{
+    var name=""
+    var age=0
+    
+    fun show(name:String,age:Int)
+    {
+       println(name+age)
+    }
+}
+
+
+fun main(args:Array<String>)
+{
+ 
+person().show(name="ahmed ",age=20)
+
+}
