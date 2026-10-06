@@ -16,3 +16,22 @@ fun main(args:Array<String>)
 person().show(name="ahmed ",age=20)
 
 }
+//*******************************************
+ 
+class info
+{
+    var name=""
+    var address=""
+    var age=0
+    fun show(name:String,address:String,age:Int)
+    {
+        println(name+address+age)
+    }
+}
+
+fun main(args:Array<String>)
+{
+info().show(name="ahmed ",address="alex ",age=20)
+}
+
+//***************************************
