@@ -1,0 +1,26 @@
+//hierarchical inheritance الوراثه الهرميه
+
+open class a()
+{
+    var name:String="ahmed"
+    fun printname(){
+    println(name)
+    }
+}
+open class b:a()
+{
+    
+}
+class c:b()
+{
+    
+}
+
+fun main(args: Array<String>) {
+
+
+var z=c()
+println(z.name)
+
+
+}
