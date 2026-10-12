@@ -1,0 +1,17 @@
+open class a
+{
+    var name:String="ahmed"
+    fun printname()
+    {
+    println(name)
+    }
+}
+class b :a()
+{
+
+}
+fun main(){
+    var z=b()
+    println(z.name)
+}
+
