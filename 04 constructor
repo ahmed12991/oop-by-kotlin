@@ -1,0 +1,18 @@
+//constructor
+//هو شبيه ب الداله ولكن مش لازم استدعيه علشان يتنفذ خو بيتنفذ تلقائي انما الداله لازم استدعيها الاول علشان تتنفذ
+class Person {
+    var name = ""
+    var age = 0
+
+    constructor() {
+        name = "Ahmed"
+        age = 20
+    }
+}
+
+fun main() {
+    val p1 = Person()
+
+    println(p1.name)
+    println(p1.age)
+}
