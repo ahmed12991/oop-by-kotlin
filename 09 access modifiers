@@ -1,0 +1,64 @@
+//Controlling Access to fields Instance Variables
+//صلاحيه الوصول
+//public دي الصيغه المعتاده 
+//private خاصه ب الكلاس اللي موجوده فيها فقط
+//protected خاصه ب الكلاس اللي موجوده فيها فقط والوراثه
+//******************************************************
+
+/*
+//public
+class person
+{
+    var name="ahmed"
+}
+
+fun main() 
+{
+var p1=person()
+println(p1.name)
+}
+*/
+//****************************************************
+
+//private
+/*class person
+{
+    private var age=20
+
+    fun showage()
+    {
+    println(age)
+    }
+    
+}
+
+fun main() 
+{
+var p2=person()
+p2.showage()
+}
+//ماينفعش اوصل بطريقه غير مباشره لازم اعمل داله وبطريقه غير مباشره
+*/
+//*******************************************************
+/*
+//protected
+open class person
+{
+    protected var age=25
+}
+    
+    class student:person()
+    {
+    
+        fun showage()
+        {
+            println(age)
+        }
+     }
+
+fun main()
+{
+    var s=student()
+    s.showage()
+}*/
+//************************************************
