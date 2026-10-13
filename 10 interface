@@ -1,0 +1,14 @@
+interface Animal {
+    fun makeSound()
+}
+
+class Dog : Animal {
+    override fun makeSound() {
+        println("The dog says Woof!")
+    }
+}
+
+fun main() {
+    val dog = Dog()
+    dog.makeSound()
+}
