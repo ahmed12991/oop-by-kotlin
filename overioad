@@ -1,0 +1,30 @@
+//overload
+//  هو اني اعمل اكتر من داله لها نفس الاسم بس بتعمل وظيفه مختلفه جوه الكلاس اهم حاجه
+
+class animal()
+{
+    fun printall(name:String,age:Int)
+    {
+        println(name + age)
+    }
+    fun printall(name:String)
+    {
+        println(name)
+    }
+    fun printall()
+    {
+        println("leo")
+    }
+
+}
+
+
+fun main(args: Array<String>) {
+    var lion=animal()
+    var cat=animal()
+    var dog=animal()
+
+    lion.printall(name="scar",age=20)
+    cat.printall(name="tom")
+    dog.printall()
+}
