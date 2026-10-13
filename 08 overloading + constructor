@@ -1,0 +1,62 @@
+class animal()
+{
+    var name:String?=null
+    var age:Int?=null
+    var color:String?=null
+
+    constructor(name:String,age:Int,color:String):this()
+    {
+        this.name=name
+        this.age=age
+        this.color=color
+    
+
+        println(name)
+        println(age)       
+        println(color)
+    }
+
+        constructor(name:String,color:String):this()
+        {
+            this.name=name
+            this.color=color
+            println(name)
+            println(color)
+        }
+        constructor(name:String):this()
+        {
+            this.name=name
+            println(name)
+        }
+
+
+    
+}
+
+fun main()
+{
+    var lion=animal(name="scar")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
