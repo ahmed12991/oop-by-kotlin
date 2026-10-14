@@ -1,0 +1,15 @@
+//abstract مسنفعش اعمل منه اوبجيكت ده للوراثه فقط
+abstract class Animal {
+    abstract fun makeSound()
+}
+
+class Dog : Animal() {
+    override fun makeSound() {
+        println("The dog says Woof!")
+    }
+}
+
+fun main() {
+    val dog = Dog()
+    dog.makeSound()
+}
