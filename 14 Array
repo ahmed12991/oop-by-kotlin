@@ -1,0 +1,13 @@
+fun main() {
+
+    // Array
+    val numbers = arrayOf(10, 20, 30)
+    println(numbers[0])
+
+    // ***************************************************************
+
+    // List
+    val names = listOf("Ahmed", "Ali", "Omar")
+    println(names[0])
+
+}
