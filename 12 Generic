@@ -1,0 +1,13 @@
+class Box<T>(val item: T) {
+    fun showItem() {
+        println(item)
+    }
+}
+
+fun main() {
+    val intBox = Box(100)
+    val stringBox = Box("Hello Kotlin")
+
+    intBox.showItem()
+    stringBox.showItem()
+}
