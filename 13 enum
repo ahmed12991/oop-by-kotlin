@@ -1,0 +1,15 @@
+enum class Day {
+    SATURDAY,
+    SUNDAY,
+    MONDAY,
+    TUESDAY,
+    WEDNESDAY,
+    THURSDAY,
+    FRIDAY
+}
+
+fun main() {
+    val today = Day.MONDAY
+
+    println(today)
+}
