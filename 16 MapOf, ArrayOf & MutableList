@@ -1,0 +1,27 @@
+fun main() {
+
+    // 1. MapOf
+    val student = mapOf(
+        "name" to "Ahmed",  // Key: name | Value: Ahmed
+        "age" to 20         // Key: age  | Value: 20
+    )
+
+    println(student["name"]) // طباعة الاسم
+
+    // ***********************************************
+
+    // 2. ArrayOf
+    val numbers = arrayOf(10, 20, 30)
+
+    println(numbers[0]) // طباعة أول عنصر
+
+    // *******************************************
+
+    // 3. MutableList
+    val names = mutableListOf("Ahmed", "Ali")
+
+    names.add("Omar") // إضافة اسم جديد
+
+    println(names) // طباعة القائمة كاملة
+
+}
