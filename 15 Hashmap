@@ -1,0 +1,23 @@
+fun main() {
+
+    val student = hashMapOf(
+
+        "name" to "Ahmed", 
+        // Key: name
+        // Value: Ahmed
+
+        "age" to "20",
+        // Key: age
+        // Value: 20
+
+        "city" to "Mansoura"
+        // Key: city
+        // Value: Mansoura
+
+    )
+
+    println(student["name"])
+    println(student["age"])
+    println(student["city"])
+
+}
